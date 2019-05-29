@@ -2,9 +2,7 @@ package com.therealdanvega.controller;
 
 import com.therealdanvega.domain.Task;
 import com.therealdanvega.service.TaskService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/tasks")
@@ -20,5 +18,14 @@ public class TaskController {
     public Iterable<Task> list(){
         return taskService.list();
     }
+
+    @PostMapping("/save")
+    public Task save(@RequestBody Task task){
+        return taskService.save(task);
+    }
+
+
+
+
 
 }

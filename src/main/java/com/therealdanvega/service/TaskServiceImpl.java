@@ -17,4 +17,9 @@ public class TaskServiceImpl implements TaskService {
     public Iterable<Task> list() {
         return taskRepository.findAll();
     }
+
+    @Override
+    public Task save(Task task) {
+        return taskRepository.save(task);
+    }
 }
