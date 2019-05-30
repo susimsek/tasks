@@ -7,6 +7,8 @@ import {TasksComponent} from './tasks/tasks.component';
 import {TasksAddComponent} from './tasks/tasks-add/tasks-add.component';
 import {TasksListComponent} from './tasks/tasks-list/tasks-list.component';
 import {TaskService} from "./tasks/task.service";
+import {DatePipe} from "@angular/common";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -17,9 +19,10 @@ import {TaskService} from "./tasks/task.service";
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [TaskService],
+  providers: [TaskService,DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
