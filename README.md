@@ -4,9 +4,9 @@ Spring Boot Task App
 
 ![Spring Boot Task App](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/126237016/original/54c821a4b90160e1255bd0d5c42f4cab5a1fdd8a/do-project-in-spring-boot-and-angular.png "Spring Boot Task App")
 
-#Technologies Used
+# Technologies Used
 
-#Backend
+# Backend
 
 - Java 8
 - Spring Boot 2.1.5
@@ -19,7 +19,7 @@ Spring Boot Task App
 - Spring Dev Tools
 - Spring Actuator
 
-#Frontend
+# Frontend
 
 - Angular CLI: 6.2.9
 - Node 8.15.1
