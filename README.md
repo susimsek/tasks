@@ -6,7 +6,7 @@ Spring Boot Task App
 
 # Screenshot of the Application
 
-![Spring Boot Task App](https://i.hizliresim.com/p5vPEz.png "app.png")
+![Spring Boot Task App](https://i.hizliresim.com/p5vPEz.png "App İmage")
 
 
 # Technologies Used
