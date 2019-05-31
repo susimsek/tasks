@@ -4,6 +4,11 @@ Spring Boot Task App
 
 ![Spring Boot Task App](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/126237016/original/54c821a4b90160e1255bd0d5c42f4cab5a1fdd8a/do-project-in-spring-boot-and-angular.png "Spring Boot Task App")
 
+# Screenshot of the Application
+
+![Spring Boot Task App](https://i.hizliresim.com/p5vPEz.png "app.png")
+
+
 # Technologies Used
 
 # Backend
